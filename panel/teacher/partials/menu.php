@@ -2,7 +2,7 @@
 <?php include('C:/xampp/htdocs/cms/config/constants.php');?>
         <!-- Database Connection Ends --->
         <!-- Authorization Check Starts --->
-        <?php include('C:/xampp/htdocs/cms/panel/staff/partials/login-check.php');?>
+        <?php include('C:/xampp/htdocs/cms/panel/teacher/partials/login-check.php');?>
         <!-- Authorization Check Ends --->
         <html>
     <head>
@@ -19,7 +19,7 @@
 
     <body>
         <div class="wrapper">
-            <h1 class="text-center adminHead">Staff Panel</h1>
+            <h1 class="text-center adminHead">Teacher Panel</h1>
         </div>
         <!-- Menu Section Starts --->
         <div class="menu text-center">

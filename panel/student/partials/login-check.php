@@ -8,6 +8,7 @@
             $_SESSION['no-login-message'] = "<div class='btn-danger text-center'> Please login to Access Control</div>";
             //Redirect
             header('location:'.SITEURL.'login/index.php');
+            session_destroy(); 
             die();
         }
         if(!$_SESSION['userType'] == "student")
@@ -17,6 +18,7 @@
             $_SESSION['no-login-message'] = "<div class='btn-danger text-center'> You are not a Student</div>";
             //Redirect
             header('location:'.SITEURL.'login/index.php');
+            session_destroy(); 
             die();
         }
             ?>

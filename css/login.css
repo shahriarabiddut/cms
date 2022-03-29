@@ -1,0 +1,182 @@
+/* 
+    Author: Shahriar Ahmed;
+    Theme: Smart ClassRoom;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: left;
+
+}
+
+/* Admin Section */
+.adminHead{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: #2f3542;
+}
+/* CSS for Table > Admin Section*/
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.tbl-30{
+    width: 35%;
+}
+/* CSS for Button > Admin Section */
+.btn-primary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn-primary:hover{
+    background-color: #04b64e;
+    color: white;
+}
+.btn-secondary{
+    background-color: #ff7f50;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn-secondary:hover{
+    background-color: #ff6348;
+    color: white;
+}
+.btn-danger{
+    background-color: #ff4757;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn-danger:hover{
+    background-color: #fd072c;
+    color: white;
+}
+.btn-third{
+    background-color: #70a1ff;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+.btn-third:hover{
+    background-color: #3742fa;
+    color: white;
+}
+
+
+/* CSS for Menu */
+.menu{
+    background-color: #ced6e0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    font-size: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff4757;
+    background-color: #dfe4ea;
+    padding: 1%;
+    transition: 1s;
+}
+.menu ul li a:hover{
+    color: #dfe4ea;
+    background-color: #ff4757;
+    padding: 1%;
+}
+/* CSS for Main Content */
+.main-content{
+    margin: 1% 0;
+    background-color: #ced6e0;
+    padding: 3% 0;
+}
+.col-4{
+    width: 18%;
+    background-color: #747d8c;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    
+}
+/* CSS for Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+.biddut a{
+    text-decoration:none;
+}
+/* unvisited link */
+.biddut a:link {
+    color: white;
+  }
+  
+  /* visited link */
+.biddut a:visited {
+    color: aquamarine;
+  }
+  
+  /* mouse over link */
+.biddut a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+.biddut a:active {
+    color: yellow;
+  }
+
+/* CSS for Login */
+.login{
+    width: 25%;
+    border: 2px solid gray;
+    margin: 15% auto;
+    padding: 2%;
+}
+.midtable{
+    margin: 0 auto;
+    padding: 5%;
+}
+.midtable tr td{
+    margin: 2%;
+}
